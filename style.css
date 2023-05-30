@@ -16,7 +16,8 @@ body {
     margin-bottom: 20px;
   }
   
-  th, td {
+  th,
+  td {
     padding: 12px 15px;
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -50,5 +51,23 @@ body {
   
   #explanations p {
     margin-bottom: 5px;
+  }
+  
+  #fr-button {
+    background-color: #111b75;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  #fr-button:hover {
+    background-color: #1e277c;
   }
   
