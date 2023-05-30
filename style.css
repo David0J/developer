@@ -70,4 +70,45 @@ body {
   #fr-button:hover {
     background-color: #1e277c;
   }
+
+  #helpful-websites {
+    margin-top: 20px;
+  }
+  
+  #helpful-websites h2 {
+    margin-bottom: 10px;
+  }
+  
+  #helpful-websites ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #helpful-websites li {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  #helpful-websites li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #111b75;
+    border-radius: 50%;
+  }
+  
+  #helpful-websites a {
+    color: #111b75;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  #helpful-websites a:hover {
+    text-decoration: underline;
+  }
   
